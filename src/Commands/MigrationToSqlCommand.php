@@ -1,9 +1,8 @@
 <?php
 
-namespace Cleverly\MigrationToSql\Commands;
+namespace BCleverly\MigrationToSql\Commands;
 
-use Doctrine\SqlFormatter\NullHighlighter;
-use Doctrine\SqlFormatter\SqlFormatter;
+use Doctrine\SqlFormatter\{NullHighlighter, SqlFormatter};
 use Illuminate\Console\Command;
 use Illuminate\Database\Migrations\Migrator;
 use Illuminate\Filesystem\Filesystem;

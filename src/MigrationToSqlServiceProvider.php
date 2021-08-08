@@ -1,20 +1,14 @@
 <?php
 
-namespace Cleverly\MigrationToSql;
+namespace BCleverly\MigrationToSql;
 
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Cleverly\MigrationToSql\Commands\MigrationToSqlCommand;
+use Spatie\LaravelPackageTools\{Package, PackageServiceProvider};
+use BCleverly\MigrationToSql\Commands\MigrationToSqlCommand;
 
 class MigrationToSqlServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
-        /*
-         * This class is a Package Service Provider
-         *
-         * More info: https://github.com/spatie/laravel-package-tools
-         */
         $package
             ->name('migrationtosql')
             ->hasConfigFile()

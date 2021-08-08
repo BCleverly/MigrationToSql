@@ -1,8 +1,8 @@
 {
-    "name": "cleverly/migrationtosql",
+    "name": "bcleverly/migrationtosql",
     "description": "This is my package MigrationToSql",
     "keywords": [
-        "Cleverly",
+        "BCleverly",
         "laravel",
         "migrationtosql"
     ],
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Cleverly\\MigrationToSql\\": "src"
+            "BCleverly\\MigrationToSql\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Cleverly\\MigrationToSql\\Tests\\": "tests"
+            "BCleverly\\MigrationToSql\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,7 +50,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cleverly\\MigrationToSql\\MigrationToSqlServiceProvider"
+                "BCleverly\\MigrationToSql\\MigrationToSqlServiceProvider"
             ]
         }
     },
