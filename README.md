@@ -4,15 +4,14 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/cleverly/migrationtosql.svg?style=flat-square)](https://packagist.org/packages/cleverly/migrationtosql)
 
 ---
-This repo is here to help you extract the SQL queries from your registered migration files.
-
+This repo is here to help you extract the SQL queries from your registered migration files. Running the below command will output each migration file in the order they're registered.
 ```bash
 php artisan migrate:to-sql
 ```
-
+Below is an example of the output of the CreateUsersTable
 ```sql
 -- CreateUsersTable
--- \laravelapp\\database\migrations/2014_10_12_000000_create_users_table.php
+-- \laravelapp\database\migrations/2014_10_12_000000_create_users_table.php
 create table `users` (
   `id` bigint unsigned not null auto_increment primary key,
   `name` varchar(255) not null,
