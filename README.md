@@ -1,7 +1,7 @@
 # This is my package MigrationToSql
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/cleverly/migrationtosql.svg?style=flat-square)](https://packagist.org/packages/cleverly/migrationtosql)
-[![Total Downloads](https://img.shields.io/packagist/dt/cleverly/migrationtosql.svg?style=flat-square)](https://packagist.org/packages/cleverly/migrationtosql)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/bcleverly/migrationtosql.svg?style=flat-square)](https://packagist.org/packages/cleverly/migrationtosql)
+[![Total Downloads](https://img.shields.io/packagist/dt/bcleverly/migrationtosql.svg?style=flat-square)](https://packagist.org/packages/cleverly/migrationtosql)
 
 ---
 This repo is here to help you extract the SQL queries from your registered migration files. Running the below command will output each migration file in the order they're registered.
