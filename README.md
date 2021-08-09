@@ -1,7 +1,7 @@
 # This is my package MigrationToSql
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/bcleverly/migrationtosql.svg?style=flat-square)](https://packagist.org/packages/bcleverly/migrationtosql)
-[![Total Downloads](https://img.shields.io/packagist/dt/bcleverly/migrationtosql.svg?style=flat-square)](https://packagist.org/packages/cleverly/migrationtosql)
+[![Total Downloads](https://img.shields.io/packagist/dt/bcleverly/migrationtosql.svg?style=flat-square)](https://packagist.org/packages/bcleverly/migrationtosql)
 
 ---
 To install:
